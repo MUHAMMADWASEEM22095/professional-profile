@@ -94,3 +94,121 @@ nav ul li a:hover {
 #image:hover{
     transform: scale(1.1);
 }
+ 
+/* Content Wrapper for Skills, Academics, and Projects */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 20px;
+    max-width: auto; 
+    margin: 20px auto;
+}
+
+/* Skills Section */
+.skills-section {
+    background-color: #bed3b2;
+    border: 2px solid #367250;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 20px;
+    width: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    flex: 1; 
+}
+
+
+.skills-section ul {
+    list-style-type:none;
+    font-weight: bold;
+    padding-left: 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.skills-section li {
+    font-family: 'rubik', sans-serif; 
+    font-weight: bold;
+    color: #0a021c;     
+    margin-bottom: 25px;             
+    font-size: 16px;  
+    padding-left: 20px;
+    position: relative;
+}
+
+
+/* Academics Section */
+.academics-section {
+    background-color: #bed3b2;
+    border: 2px solid #367250;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    flex: 1;
+}
+
+.academics-section h1 {
+    font-family: 'rubik', sans-serif; 
+    font-weight: bold;
+    color: #0a021c;    
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.academics-section ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'rubik', sans-serif; 
+    font-weight: bold;
+    color: #0a021c;    
+}
+
+.academics-section li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 'arial', sans-serif; 
+    font-weight: bold;
+    color: #0a021c;    
+    padding-left: 10px;
+    position: relative;
+}
+
+
+/* Projects Section */
+.projects-section {
+    background-color: #bed3b2;
+    border: 2px solid #367250;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    flex: 1;
+}
+
+.projects-section ul {
+    list-style-type:none;
+    font-weight: bold;
+    padding-left: 0;
+    font-size: 18px;
+    font-family: 'arial', sans-serif; 
+    font-weight: bold;
+    color: #0a021c;    
+    margin-bottom: 5px;
+}
+
+.projects-section li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 'arial', sans-serif; 
+    font-weight: bold;
+    color: #0a021c;    
+    padding-left: 10px;
+    position: relative;
+}
